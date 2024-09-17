@@ -1,7 +1,13 @@
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 body>.container{
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: 100px 1fr;
 }
 
 .sidebar{
@@ -12,6 +18,38 @@ body>.container{
   grid-column: 1 / 2;
 }
 
+.sidebar .logo{
+  padding: 1em;
+
+  display: flex;
+  align-items: center;
+}
+
+.main_logo{
+  height: 64px;
+  width: 64px;
+}
+
+.sidebar .menu{
+  margin: 0 5px;
+}
+
+.sidebar li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar li h2{
+  font-size: 1.5em;
+}
+
+.sidebar .menu_icon{
+  height: 32px;
+  width: 32px;
+  margin-right: 2em;
+}
+
 .header{
   background-color: lightgray;
   border: 2px solid blue;
@@ -20,9 +58,12 @@ body>.container{
   grid-column: 2 / 3;
 }
 
+
+
 .main{
   background-color: gray;
   border: 2px solid blue;
+  overflow: scroll;
 
   grid-row: 2 / 3 ;
   grid-column: 2 / 3;
@@ -37,6 +78,22 @@ body>.container{
 
   grid-row: 1 / 3;
   grid-column: 1 / 2;
+}
+
+.projects>.container{
+  border: 2px solid darkgreen;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+
+}
+
+.projects > .container > .item{
+  margin: 1em;
+  border: 2px solid black;
+  height: 175px;
+  width: 300px;
 }
 
 .main .announcements{
