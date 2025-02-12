@@ -9,14 +9,235 @@
             integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
             crossorigin="anonymous" 
             referrerpolicy="no-referrer" />
-    <title>Library</title>
+    <link   rel="preconnect" 
+            href="https://fonts.googleapis.com">
+    <link   rel="preconnect" 
+            href="https://fonts.gstatic.com" 
+            crossorigin>
+    <link   href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" 
+            rel="stylesheet">
+    <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div class="main-content">
-        
+        <div class="menu-container">
+          <div class="title menu-btn">
+            <i class="fa fa-bars"></i>
+            <h1>Dashboard</h1>
+          </div>
+          <div class="main-menu">
+            <div class="menu-btn">
+              <i class="fa fa-home"></i>
+              <h1>Home</h1>
+            </div>
+            <div class="menu-btn">
+              <i class="fa fa-user"></i>
+              <h1>Profile</h1>
+            </div>
+            <div class="menu-btn">
+              <i class="fa fa-envelope"></i>
+              <h1>Messages</h1>
+            </div>
+            <div class="menu-btn">
+              <i class="fa fa-clock"></i>
+              <h1>History</h1>
+            </div>
+            <div class="menu-btn">
+              <i class="fa fa-check"></i>
+              <h1>Tasks</h1>
+            </div>
+            <div class="menu-btn">
+              <i class="fa fa-user-group"></i>
+              <h1>Communities</h1>
+            </div>
+          </div>
+          <div class="settings-menu">
+            <div class="menu-btn">
+              <i class="fa fa-gear"></i>
+              <h1>Settings</h1>
+            </div>
+            <div class="menu-btn">
+              <i class="fa fa-plus"></i>
+              <h1>Support</h1>
+            </div>
+            <div class="menu-btn">
+              <i class="fa fa-user"></i>
+              <h1>Privacy</h1>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard-container">
+          <div class="header">
+            <div class="top">
+              <div class="search">
+                <i class="fa fa-search"></i>
+                <input type="text" name="" id="">
+              </div>
+              <div class="spacer"></div>
+              <div class="notifs">
+                <i class="fa fa-bell"></i>
+              </div>
+              <div class="pfp">
+                <i class="fa fa-user"></i>
+              </div>
+              <div class="name">
+                <h1>John Smith</h1>
+              </div>
+            </div>
+            <div class="btm">
+              <div class="profile-img">
+                <i class="fa fa-user"></i>
+              </div>
+              <div class="welcome">
+                <h1 class="main-welcome">
+                  Hello John
+                </h1>
+                <p class="welcome-msg">
+                  What would you like to work on today?
+                </p>
+              </div>
+              <div class="btn new-btn">
+                <i class="fa fa-plus"></i>
+                <p>New</p>
+              </div>
+              <div class="btn upload-btn">
+                <i class="fa fa-upload"></i>
+                <p>Upload</p>
+              </div>
+              <div class="btn share-btn">
+                <i class="fa fa-paper-plane"></i>
+                <p>Share</p>
+              </div>
+            </div>
+          </div>
+          <div class="contents">
+            <div class="main-dash">
+              <h1>Your Projects</h1>
+              <ul class="dash-grid">
+                <li class="dash-item">
+                  <img src="https://picsum.photos/275?random=1" alt="">
+                  <div class="item-text">
+                    <h2>Project Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni temporibus incidunt quidem beatae, Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tenetur sit distinctio itaque eius voluptates nostrum nam? Possimus culpa id cum eum mollitia commodi, quibusdam pariatur, unde explicabo accusamus repudiandae debitis architecto libero vitae! Non deleniti sunt doloribus nam quidem sed veniam mollitia cum nemo quasi voluptates vero eum, architecto accusamus adipisci laborum!</p>
+                    <div class="item-btns">
+                      <i class="fab fa-github"></i>
+                      <i class="fa fa-gear"></i>
+                      <i class="fa fa-upload"></i>
+                      <i class="fa fa-paper-plane"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="dash-item">
+                  <img src="https://picsum.photos/275?random=2" alt="">
+                  <div class="item-text">
+                    <h2>Project Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni temporibus incidunt quidem beatae, Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tenetur sit distinctio itaque eius voluptates nostrum nam? Possimus culpa id cum eum mollitia commodi, quibusdam pariatur, unde explicabo accusamus repudiandae debitis architecto libero vitae! Non deleniti sunt doloribus nam quidem sed veniam mollitia cum nemo quasi voluptates vero eum, architecto accusamus adipisci laborum!</p>
+                    <div class="item-btns">
+                      <i class="fab fa-github"></i>
+                      <i class="fa fa-gear"></i>
+                      <i class="fa fa-upload"></i>
+                      <i class="fa fa-paper-plane"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="dash-item">
+                  <img src="https://picsum.photos/275?random=3" alt="">
+                  <div class="item-text">
+                    <h2>Project Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni temporibus incidunt quidem beatae, Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tenetur sit distinctio itaque eius voluptates nostrum nam? Possimus culpa id cum eum mollitia commodi, quibusdam pariatur, unde explicabo accusamus repudiandae debitis architecto libero vitae! Non deleniti sunt doloribus nam quidem sed veniam mollitia cum nemo quasi voluptates vero eum, architecto accusamus adipisci laborum!</p>
+                    <div class="item-btns">
+                      <i class="fab fa-github"></i>
+                      <i class="fa fa-gear"></i>
+                      <i class="fa fa-upload"></i>
+                      <i class="fa fa-paper-plane"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="dash-item">
+                  <img src="https://picsum.photos/275?random=4" alt="">
+                  <div class="item-text">
+                    <h2>Project Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni temporibus incidunt quidem beatae, Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tenetur sit distinctio itaque eius voluptates nostrum nam? Possimus culpa id cum eum mollitia commodi, quibusdam pariatur, unde explicabo accusamus repudiandae debitis architecto libero vitae! Non deleniti sunt doloribus nam quidem sed veniam mollitia cum nemo quasi voluptates vero eum, architecto accusamus adipisci laborum!</p>
+                    <div class="item-btns">
+                      <i class="fab fa-github"></i>
+                      <i class="fa fa-gear"></i>
+                      <i class="fa fa-upload"></i>
+                      <i class="fa fa-paper-plane"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="dash-item">
+                  <img src="https://picsum.photos/275?random=5" alt="">
+                  <div class="item-text">
+                    <h2>Project Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni temporibus incidunt quidem beatae, Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tenetur sit distinctio itaque eius voluptates nostrum nam? Possimus culpa id cum eum mollitia commodi, quibusdam pariatur, unde explicabo accusamus repudiandae debitis architecto libero vitae! Non deleniti sunt doloribus nam quidem sed veniam mollitia cum nemo quasi voluptates vero eum, architecto accusamus adipisci laborum!</p>
+                    <div class="item-btns">
+                      <i class="fab fa-github"></i>
+                      <i class="fa fa-gear"></i>
+                      <i class="fa fa-upload"></i>
+                      <i class="fa fa-paper-plane"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="dash-item">
+                  <img src="https://picsum.photos/275?random=6" alt="">
+                  <div class="item-text">
+                    <h2>Project Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni temporibus incidunt quidem beatae, Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tenetur sit distinctio itaque eius voluptates nostrum nam? Possimus culpa id cum eum mollitia commodi, quibusdam pariatur, unde explicabo accusamus repudiandae debitis architecto libero vitae! Non deleniti sunt doloribus nam quidem sed veniam mollitia cum nemo quasi voluptates vero eum, architecto accusamus adipisci laborum!</p>
+                    <div class="item-btns">
+                      <i class="fab fa-github"></i>
+                      <i class="fa fa-gear"></i>
+                      <i class="fa fa-upload"></i>
+                      <i class="fa fa-paper-plane"></i>
+                    </div>
+                  </div>
+                </li>
+                <li class="dash-item">
+                  <img src="https://picsum.photos/275?random=7" alt="">
+                  <div class="item-text">
+                    <h2>Project Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni temporibus incidunt quidem beatae, Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tenetur sit distinctio itaque eius voluptates nostrum nam? Possimus culpa id cum eum mollitia commodi, quibusdam pariatur, unde explicabo accusamus repudiandae debitis architecto libero vitae! Non deleniti sunt doloribus nam quidem sed veniam mollitia cum nemo quasi voluptates vero eum, architecto accusamus adipisci laborum!</p>
+                    <div class="item-btns">
+                      <i class="fab fa-github"></i>
+                      <i class="fa fa-gear"></i>
+                      <i class="fa fa-upload"></i>
+                      <i class="fa fa-paper-plane"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="side-dash">
+              <div class="announcements">
+                <h1>Announcements</h1>
+                <div class="announcement-contents">
+                  <ul>
+                    <li>
+                      <h2>Announcement</h2>
+                      <p>announcement text</p>
+                    </li>
+                    <li>item g</li>
+                    <li>item p</li>
+                    <li>item 5</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="trending">
+                <h1>Trending</h1>
+                <div class="trending-contents">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
